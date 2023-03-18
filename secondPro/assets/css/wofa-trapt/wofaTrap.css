@@ -1,0 +1,312 @@
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.p-relative {
+  position: relative !important;
+}
+
+.navbar {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 1px;
+  z-index: 100;
+}
+
+.container,
+.container-fluid {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.navbar-brand {
+  display: flex;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-left: 1rem;
+  font-size: 1.25rem;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.nav-link {
+  transition: 0.3s;
+  padding: 0.5rem 1rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-collapse {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  padding-right: 0;
+  list-style: none;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.75rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.badge {
+  padding: 17px 30px;
+  border-radius: 3rem;
+}
+
+.py-5 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.py-4 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-md-6,
+.col-xl-3,
+.col-lg-3,
+.col-12 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-6 {
+  width: calc(50% - 0.8rem) !important;
+  margin: 0.2rem;
+}
+
+.col-12 {
+  display: block;
+}
+
+.img-place {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  z-index: 1000000;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.fw-light {
+  font-weight: 300;
+}
+
+.fw-normal {
+  font-weight: 450;
+}
+
+.fw-bold {
+  font-weight: 800;
+}
+
+.mb-3 {
+  margin-bottom: 2rem !important;
+}
+
+.text-muted {
+  color: #6c747d;
+}
+
+.btn {
+  font-weight: 500;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.4rem 0.8rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-5 {
+  margin-top: 2.5rem !important;
+}
+
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+
+.mt-3 {
+  margin-top: 1rem !important;
+}
+
+.fs-2 {
+  font-size: 1rem;
+}
+
+.fs-lg {
+  font-size: 1.5rem;
+}
+
+.fs-xl {
+  font-size: 2rem !important;
+}
+
+.caption {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: #6c487d;
+  text-align: center;
+  font-size: 18px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  border-radius: 0.25rem;
+}
+
+.my-3 {
+  margin-bottom: 2rem !important;
+  margin-top: 2rem !important;
+}
+
+.fg-theme {
+  color: #ef3724;
+}
+
+.pb-3 {
+  padding-bottom: 2.5rem !important;
+}
+
+.px-0 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.form-control {
+  width: 100%;
+  height: 3rem;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: 3px solid #999a9c;
+  border-radius: 10px;
+}
+
+textarea {
+  height: 5rem !important;
+}
+
+.fg-white {
+  color: #fff;
+}
+
+.last-link {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 16546464648463446;
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.last-link:hover {
+  color: #9fa2ab;
+}
